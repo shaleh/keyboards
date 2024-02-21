@@ -1,0 +1,9 @@
+COMBO_ENABLE        = no
+COMMAND_ENABLE       = no
+CONSOLE_ENABLE       = yes
+LEADER_ENABLE        = no
+ORYX_ENABLE          = yes
+RGB_MATRIX_CUSTOM_KB = yes
+SPACE_CADET_ENABLE   = no
+TAP_DANCE_ENABLE     = no
+CAPS_WORD_ENABLE     = yes 
