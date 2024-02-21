@@ -1,4 +1,5 @@
 *~
+*.log
 obj_*
 *.hex
 *.elf
