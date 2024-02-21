@@ -1,0 +1,3 @@
+[submodule "voyager/qmk_firmware"]
+	path = voyager/qmk_firmware
+	url = https://github.com/zsa/qmk_firmware/
