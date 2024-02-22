@@ -2,7 +2,7 @@ SHELL = /bin/sh -x
 # FIXME: learn from the path
 KEYBOARD := voyager
 KEYMAPS = colemak-dh
-USER = ***REMOVED***
+USER = shaleh
 
 all: build
 
