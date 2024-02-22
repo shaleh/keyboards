@@ -1,5 +1,7 @@
 #include QMK_KEYBOARD_H
 #include "version.h"
+#include "personal.h"
+#include "work.h"
 
 /* Macros */
 
@@ -174,13 +176,13 @@ bool my_handle_key_pressed_user(uint16_t keycode, keyrecord_t *record) {
           return false;
         }
         case WORK_EMAIL: {
-          SEND_STRING("sean.perry@newsela.com");
+          SEND_STRING(work_email_address);
           return false;
         }
         case PERSONAL_EMAIL: {
-          static const char email[] PROGMEM = "shalehperry@gmail.com";
-          static const char username[] PROGMEM = "shaleh";
-          static const char with_name[] PROGMEM = "shalehperry";
+          static const char email[] PROGMEM = personal_email_address;
+          static const char username[] PROGMEM = personal_user_name;
+          static const char with_name[] PROGMEM = personal_user_name_full;
           clear_weak_mods();
           unregister_mods(mods);  // Clear mods before send_string.
           SEND_STRING(shifted ? (ctrl
