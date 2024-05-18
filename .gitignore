@@ -3,6 +3,7 @@ work.h
 *~
 *.log
 obj_*
+*.bin
 *.hex
 *.elf
 *.map
