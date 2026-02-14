@@ -1,9 +1,13 @@
 personal.h
 work.h
 *~
+.cache/
+compile_commands.json
 *.log
 obj_*
 *.bin
 *.hex
 *.elf
 *.map
+# RP2040 firmware
+*.uf2
